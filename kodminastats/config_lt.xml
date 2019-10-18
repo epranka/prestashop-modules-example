@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>kodminastats</name>
+	<displayName><![CDATA[Kodmina Stats]]></displayName>
+	<version><![CDATA[0.9.0]]></version>
+	<description><![CDATA[Addon for sbreports. Displays total products count and total whosale price]]></description>
+	<author><![CDATA[Kodmina. Edvinas Pranka]]></author>
+	<tab><![CDATA[back_office_features]]></tab>
+	<confirmUninstall><![CDATA[Are you sure you want to uninstall?]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

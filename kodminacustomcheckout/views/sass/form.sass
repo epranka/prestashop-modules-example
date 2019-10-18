@@ -1,0 +1,51 @@
+@keyframes checkout-spinner
+    to
+        transform: rotate(360deg)
+
+#customCheckoutOverlay
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    z-index: 9999999
+    background: rgba(255, 255, 255, 0.75)
+
+    .checkout-spinner:before
+        content: ""
+        box-sizing: border-box
+        position: absolute
+        top: 50%
+        left: 50%
+        width: 20px
+        height: 20px
+        margin-top: -10px
+        margin-left: -10px
+        border-radius: 50%
+        border: 2px solid #ccc
+        border-top-color: #333
+        animation: checkout-spinner 0.6s linear infinite
+
+    #customCheckoutError
+        display: none
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+        align-items: center
+        justify-content: center
+
+        .block
+            margin: 10px
+            background: #333333
+            color: white
+            max-width: 400px
+            padding: 20px
+            
+            @media screen and (min-width: 768px)
+                padding: 30px 40px 30px 40px
+
+            .error-header
+                font-size: 20px
+                margin-bottom: 20px

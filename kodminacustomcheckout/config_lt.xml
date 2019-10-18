@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>kodminacustomcheckout</name>
+	<displayName><![CDATA[Custom Checkout]]></displayName>
+	<version><![CDATA[0.9.0]]></version>
+	<description><![CDATA[Checkout depend on carrier]]></description>
+	<author><![CDATA[Kodmina. Edvinas Pranka]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<confirmUninstall><![CDATA[Are you sure you want to uninstall?]]></confirmUninstall>
+	<is_configurable>0</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>
